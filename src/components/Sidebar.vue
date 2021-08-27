@@ -61,9 +61,6 @@
       }
     },
    methods: {
-     switchCreateTaskDialog(value) {
-       this.$store.dispatch("switchCreateTaskDialog", value);
-       },
      toEventPage(eventNo) {
        this.$router.push(`/event/${eventNo}`);
      }
