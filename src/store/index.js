@@ -13,7 +13,7 @@ export default new Vuex.Store({
   },
   // stateは参照専用、直接変更はNG
   state: {
-    isOpenSideBar: true,
+    isOpenSideBar: false,
     createTaskDialog: false
   },
   // mutationsはstateを変更のみを行う
